@@ -1,5 +1,9 @@
 # Picnic
 
+![invalid form](./screenshots/invalid_form.png)
+![valid form](./screenshots/valid_form.png)
+![profile page](./screenshots/profile_page.png)
+
 ### Реализован функционал:
 
 - Валидация формы;
