@@ -1,0 +1,27 @@
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #fff;
+  border-radius: 0 0 24px 24px;
+  padding: 16px 24px;
+}
+
+.user {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 20px;
+  color: #394d5ff5;
+  text-align: center;
+
+  background-color: #f6f8fc;
+  width: 192px;
+  height: 48px;
+  border-radius: 24px;
+  overflow: hidden;
+
+  line-height: 48px;
+  padding: 0 12px;
+
+  text-overflow: ellipsis;
+}

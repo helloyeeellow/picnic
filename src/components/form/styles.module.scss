@@ -1,0 +1,68 @@
+.form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+
+  width: 42vw;
+  max-width: 800px;
+  height: 50vh;
+  min-height: 600px;
+  padding: 48px;
+  border-radius: 24px;
+  background: linear-gradient(
+    180deg,
+    rgb(246, 248, 252),
+    rgb(250, 250, 250) 100%
+  );
+}
+
+.closeButton {
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  right: 20px;
+
+  border: none;
+  background-color: inherit;
+}
+
+.button {
+  margin-top: auto;
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  background: rgb(126, 163, 115);
+
+  color: rgb(255, 255, 255);
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 16px;
+
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: rgba(19, 1, 1, 0.3);
+  color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(195, 195, 195, 0.3);
+  cursor: default;
+}
+
+.divider {
+  height: 1px;
+  background-color: #dde0f0;
+  margin-top: 8px;
+}
+.overlay {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #9d9d9d24;
+}

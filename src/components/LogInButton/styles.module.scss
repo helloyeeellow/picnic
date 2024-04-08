@@ -1,0 +1,20 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 192px;
+  height: 48px;
+  border-radius: 24px;
+  border: none;
+
+  background: rgb(246, 248, 252);
+  cursor: pointer;
+}
+
+.text {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 16px;
+
+  color: #1b2e3f;
+}
